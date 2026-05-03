@@ -26,6 +26,5 @@ public:
     void Reset();
 
 private:
-    uint32_t _toadRubyID = 0;
     bool _hasHitStormWizard = false;
 };

@@ -4996,7 +4996,6 @@ static void OnArcDPSCombatEvent(void* aEventArgs)
         return;
 
     std::stringstream ss;
-    ss << "dst->id = " << dst->id << '\n';
 
     const auto bossInfo = bossTracker.CategorizeBoss(*ev, *dst);
 
